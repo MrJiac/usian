@@ -24,7 +24,7 @@ public class ItemController {
         if (tbItem != null) {
             return Result.ok(tbItem);
         }
-        return Result.error("抱歉没有此类商品   ");
+        return Result.error("抱歉没有此类商品 ");
     }
     /*
     * 分页·查询商品列表
